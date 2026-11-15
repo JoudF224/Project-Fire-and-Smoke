@@ -64,6 +64,16 @@ All runs used Ultralytics 8.4.173, which each notebook installs automatically.
 ## Results
 
 *To be added.*
+| Model | Dataset | mAP@0.5 | mAP@0.5:0.95 |
+|---|---|---|---|
+| RT-DETR-L | Original | 0.000 ± 0.000 | 0.000 ± 0.000 |
+| YOLO11s | Original | 0.000 ± 0.000 | 0.000 ± 0.000 |
+| YOLOv10s | Original | 0.000 ± 0.000 | 0.000 ± 0.000 |
+| RT-DETR-L | Cleaned | 0.000 ± 0.000 | 0.000 ± 0.000 |
+| YOLO11s | Cleaned | 0.000 ± 0.000 | 0.000 ± 0.000 |
+| YOLOv10s | Cleaned | 0.000 ± 0.000 | 0.000 ± 0.000 |
+
+Values are the mean ± standard deviation over two seeds on the test split.
 
 ## Large Files (Google Drive)
 
