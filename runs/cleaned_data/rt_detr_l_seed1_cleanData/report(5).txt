@@ -1,0 +1,14 @@
+==========================================================================================
+FINAL RUN REPORT - RT-DETR-L - seed 1
+==========================================================================================
+GPU: Tesla T4 | Ultralytics 8.4.173 | torch 2.14.1+cu130
+Epochs: 30 | train fraction: 1.0 | NaN/inf batches: 0 (epochs [])
+Optimizer line : optimizer: AdamW(lr=0.001667, momentum=0.937) with parameter groups 143 weight(decay=0.0), 206 weight(decay=0.0005), 226 bias(decay=0.0)
+Train args     : {'optimizer': 'AdamW', 'lr0': 0.001667, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'nbs': 64, 'batch': 8, 'epochs': 30, 'imgsz': 640, 'amp': True, 'seed': 1, 'deterministic': False, 'warmup_epochs': 3.0, 'close_mosaic': 10, 'patience': 100, 'cos_lr': False}
+Validation     : {'epochs_in_results_csv': 30, 'last_epoch': {'epoch': 30, 'mAP50': 0.47928, 'mAP50_95': 0.21102}, 'best_epoch': {'epoch': 30, 'mAP50': 0.47928, 'mAP50_95': 0.21102}}
+TEST (best.pt) : precision 0.5781 | recall 0.4615 | mAP50 0.5040 | mAP50-95 0.2285
+   fire  : P 0.5938 | R 0.4986 | AP50 0.5547 | AP50-95 0.2435
+   smoke : P 0.5625 | R 0.4245 | AP50 0.4533 | AP50-95 0.2134
+Speed (ms/image, T4): {'preprocess': 1.29, 'inference': 44.4, 'loss': 0.0, 'postprocess': 0.18}
+Model: {'best_pt_MB': 63.2, 'parameters_M': 32.81}
+==========================================================================================
