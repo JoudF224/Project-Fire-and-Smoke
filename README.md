@@ -77,9 +77,9 @@ Values are the mean ± standard deviation over two seeds on the test split.
 
 ## Large Files (Google Drive)
 
-Model weights (`best.pt`) and large analysis outputs are not stored in this repository because of GitHub's file size limits. They are available here:
+The complete training outputs and large analysis outputs are not stored in this repository because of GitHub's file size limits. They are available here:
 
-- Model weights: [Google Drive](ADD_LINK_HERE)
+- Full training outputs of all 12 runs (model weights, training plots, test evaluation and logs): [Google Drive](ADD_LINK_HERE)
 - Full analysis outputs: [Google Drive](ADD_LINK_HERE)
 
 ## Notes
