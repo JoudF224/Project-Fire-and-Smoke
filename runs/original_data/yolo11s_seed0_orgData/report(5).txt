@@ -1,0 +1,14 @@
+==========================================================================================
+FINAL RUN REPORT - YOLO11s - seed 0
+==========================================================================================
+GPU: Tesla T4 | Ultralytics 8.4.173 | torch 2.14.1+cu130
+Epochs: 30 | train fraction: 1.0 | NaN/inf batches: 0 (epochs [])
+Optimizer line : optimizer: AdamW(lr=0.001667, momentum=0.9) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0005), 87 bias(decay=0.0)
+Train args     : {'optimizer': 'AdamW', 'lr0': 0.001667, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'nbs': 64, 'batch': 8, 'epochs': 30, 'imgsz': 640, 'amp': True, 'seed': 0, 'deterministic': False, 'warmup_epochs': 3.0, 'close_mosaic': 10, 'patience': 100, 'cos_lr': False}
+Validation     : {'epochs_in_results_csv': 30, 'last_epoch': {'epoch': 30, 'mAP50': 0.58143, 'mAP50_95': 0.31973}, 'best_epoch': {'epoch': 30, 'mAP50': 0.58143, 'mAP50_95': 0.31973}}
+TEST (best.pt) : precision 0.6473 | recall 0.5136 | mAP50 0.5841 | mAP50-95 0.3191
+   fire  : P 0.6399 | R 0.5533 | AP50 0.6310 | AP50-95 0.3457
+   smoke : P 0.6547 | R 0.4739 | AP50 0.5372 | AP50-95 0.2924
+Speed (ms/image, T4): {'preprocess': 1.37, 'inference': 9.43, 'loss': 0.0, 'postprocess': 1.21}
+Model: {'best_pt_MB': 18.3, 'parameters_M': 9.43}
+==========================================================================================
