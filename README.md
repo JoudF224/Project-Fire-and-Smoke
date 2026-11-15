@@ -59,7 +59,7 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
 3. In the first code cell, set `MODEL_TO_RUN` ("RT-DETR-L", "YOLO11s" or "YOLOv10s") and `SEED` (0 or 1).
 4. Runtime > **Run all**. The dataset is downloaded and its MD5 is verified automatically.
 
-All runs used Ultralytics 8.4.173 (see `requirements.txt`).
+All runs used Ultralytics 8.4.173, which each notebook installs automatically.
 
 ## Results
 
