@@ -53,7 +53,7 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
     ├── analysis_inputs/                  # annotator files and adjudicated disagreements
     ├── results_analysis/                 # outputs of Results_Analysis
     ├── results_fpfn/                     # outputs of FPFN_Analysis
-    └── small_targets_coco_testt/          # the 38 test images with small targets (for viewing only)
+    └── small_targets_coco_testt/         # the 38 test images with small targets (for viewing only)
 
 ```
 
