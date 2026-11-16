@@ -45,11 +45,12 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
 │   ├── cleaned_data/                    # 6 runs: notebook, results.csv, report.txt
 │   └── cleaned_data_failed/             # first attempt of RT-DETR-L seed 0 (diverged)
 └── analysis/
-    ├── Results_Analysis.ipynb           # results, agreement (Cohen's kappa), challenging conditions
-    ├── FPFN_Analysis.ipynb              # false positives and false negatives (Methods A and B)
-    ├── analysis_inputs/                 # annotator files
-    ├── results_analysis/                # outputs of Results_Analysis
-    └── results_fpfn/                    # outputs of FPFN_Analysis
+    ├── Agreement_Analysis.ipynb     # annotator agreement (percent agreement, Cohen's kappa) and list of disagreements
+    ├── Results_Analysis.ipynb       # results, training curves, speed, challenging conditions
+    ├── FPFN_Analysis.ipynb          # false positives and false negatives (Methods A and B)
+    ├── analysis_Inputs/             # annotator files and adjudicated disagreements
+    ├── results_analysis/            # outputs of Results_Analysis
+    └── results_fpfn/                # outputs of FPFN_Analysis
 ```
 
 ## How to Reproduce a Run
@@ -78,7 +79,8 @@ Values are the mean ± standard deviation over two seeds on the test split.
 The complete training outputs and large analysis outputs are not stored in this repository because of GitHub's file size limits. They are available here:
 
 - Full training outputs of all 12 runs (model weights, training plots, test evaluation and logs): [Google Drive](https://drive.google.com/drive/folders/1HfcdjD6BbsgZaPKoxmnTubIWYAXzDcOK?usp=sharing)
-- Full analysis outputs: [Google Drive](ADD_LINK_HERE)
+- Results analysis outputs: [Google Drive](https://drive.google.com/drive/folders/1ArU5LxjSu0qU8KV56zxJwOTZKd4AWGUJ?usp=sharing)
+- FP/FN analysis outputs: [Google Drive](https://drive.google.com/drive/folders/1BP148x6tKX-WTNXv77osGDf8bisr_38Y?usp=sharing)
 
 ## Notes
 
