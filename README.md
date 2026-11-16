@@ -54,7 +54,8 @@ This folder contains the 38 images of the cleaned test split that include at lea
     ├── FPFN_Analysis.ipynb          # false positives and false negatives (Methods A and B)
     ├── analysis_Inputs/             # annotator files and adjudicated disagreements
     ├── results_analysis/            # outputs of Results_Analysis
-    └── results_fpfn/                # outputs of FPFN_Analysis
+    ├── results_fpfn/                # outputs of FPFN_Analysis
+    └── small_target_images/         # the 38 test images with small targets (for viewing only)
 ```
 
 ## How to Reproduce a Run
