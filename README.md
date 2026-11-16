@@ -62,16 +62,14 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
 All runs used Ultralytics 8.4.173, which each notebook installs automatically.
 
 ## Results
-
-*To be added.*
 | Model | Dataset | mAP@0.5 | mAP@0.5:0.95 |
 |---|---|---|---|
-| RT-DETR-L | Original | 0.000 ± 0.000 | 0.000 ± 0.000 |
-| YOLO11s | Original | 0.000 ± 0.000 | 0.000 ± 0.000 |
-| YOLOv10s | Original | 0.000 ± 0.000 | 0.000 ± 0.000 |
-| RT-DETR-L | Cleaned | 0.000 ± 0.000 | 0.000 ± 0.000 |
-| YOLO11s | Cleaned | 0.000 ± 0.000 | 0.000 ± 0.000 |
-| YOLOv10s | Cleaned | 0.000 ± 0.000 | 0.000 ± 0.000 |
+| RT-DETR-L | Original | 0.591 ± 0.019 | 0.327 ± 0.010 |
+| YOLO11s | Original | 0.580 ± 0.005 | 0.317 ± 0.002 |
+| YOLOv10s | Original | 0.582 ± 0.005 | 0.320 ± 0.004 |
+| RT-DETR-L | Cleaned | 0.501 ± 0.005 | 0.225 ± 0.004 |
+| YOLO11s | Cleaned | 0.470 ± 0.005 | 0.212 ± 0.003 |
+| YOLOv10s | Cleaned | 0.474 ± 0.004 | 0.214 ± 0.001 |
 
 Values are the mean ± standard deviation over two seeds on the test split.
 
