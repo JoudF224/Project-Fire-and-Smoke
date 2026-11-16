@@ -50,11 +50,10 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
     ├── Agreement_Analysis.ipynb          # annotator agreement (percent agreement, Cohen's kappa), disagreements for adjudication, final categories
     ├── Results_Analysis.ipynb            # results, training curves, speed, challenging conditions
     ├── FPFN_Analysis.ipynb               # false positives and false negatives (Methods A and B)
-    ├── analysis_inputs/                  # annotator files and adjudicated disagreements
+    ├── analysis_Inputs/                  # annotator files and adjudicated disagreements
     ├── results_analysis/                 # outputs of Results_Analysis
     ├── results_fpfn/                     # outputs of FPFN_Analysis
-    └── small_targets_coco_testt/         # the 38 test images with small targets (for viewing only)
-
+    └── small_targets_coco_test/          # the 38 test images with small targets (for viewing only)
 ```
 
 ## How to Reproduce a Run
