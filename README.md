@@ -30,6 +30,10 @@ This project compares three real-time object detectors for fire and smoke detect
 
 The original dataset was released by CQUniversity (Partheepan, 2025). The cleaned version is derived from it: exact duplicates and augmented copies in the validation and test splits were removed, 240 label files were corrected, and the data was re-split so that related scenes stay in the same split.
 
+# Small-target images (for viewing only)
+
+This folder contains the 38 images of the cleaned test split that include at least one small target, defined following the COCO convention as a bounding box smaller than 32 × 32 pixels. Together they contain 44 small fire boxes and 13 small smoke boxes. These images are provided for viewing only; the notebooks do not use these files and identify the same images automatically from the test labels.
+
 ## Repository Structure
 
 ```
