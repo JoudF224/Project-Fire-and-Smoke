@@ -1,4 +1,4 @@
-# Fire and Smoke Detection with RT-DETR, YOLO11 and YOLOv10
+<img width="590" height="52" alt="image" src="https://github.com/user-attachments/assets/d6119724-747f-4e70-aaf1-7c5d099134f5" /># Fire and Smoke Detection with RT-DETR, YOLO11 and YOLOv10
 ### A Comparison on Original and Cleaned Data
 
 **Course:** CSC 403 – Selected Topics in Computer Science  
@@ -79,7 +79,7 @@ Values are the mean ± standard deviation over two seeds on the test split.
 
 The complete training outputs and large analysis outputs are not stored in this repository because of GitHub's file size limits. They are available here:
 
-- Full training outputs of all 12 runs (model weights, training plots, test evaluation and logs): [Google Drive](ADD_LINK_HERE)
+- Full training outputs of all 12 runs (model weights, training plots, test evaluation and logs): [Google Drive](https://drive.google.com/drive/folders/1HfcdjD6BbsgZaPKoxmnTubIWYAXzDcOK?usp=sharing)
 - Full analysis outputs: [Google Drive](ADD_LINK_HERE)
 
 ## Notes
