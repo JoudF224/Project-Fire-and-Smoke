@@ -35,24 +35,25 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
 
 ```
 ├── data/
-│   ├── data_cleaning.ipynb              # data audit and cleaning
-│   └── data_check_after_cleaning.ipynb  # independent check of the cleaned dataset
+│   ├── README.md                         # dataset links and MD5 checksums
+│   ├── data_cleaning.ipynb               # data audit and cleaning
+│   └── data_check_after_cleaning.ipynb   # independent check of the cleaned dataset
 ├── training/
-│   ├── train_orgData.ipynb              # training template, original dataset
-│   ├── train_cleanData.ipynb            # training template, cleaned dataset
-│   └── rtdetr_batch16_test.ipynb        # preliminary memory test (batch 16)
+│   ├── train_orgData.ipynb               # training template, original dataset
+│   ├── train_cleanData.ipynb             # training template, cleaned dataset
+│   └── rtdetr_batch16_test.ipynb         # preliminary memory test (batch 16)
 ├── runs/
-│   ├── original_data/                   # 6 runs: notebook, results.csv, report.txt
-│   ├── cleaned_data/                    # 6 runs: notebook, results.csv, report.txt
-│   └── cleaned_data_failed/             # first attempt of RT-DETR-L seed 0 (diverged)
+│   ├── original_data/                    # 6 runs: notebook, results.csv, report.txt
+│   ├── cleaned_data/                     # 6 runs: notebook, results.csv, report.txt
+│   └── cleaned_data_failed/              # first attempt of RT-DETR-L seed 0 (diverged)
 └── analysis/
-    ├── Agreement_Analysis.ipynb     # annotator agreement (percent agreement, Cohen's kappa), disagreements for adjudication, final categories
-    ├── Results_Analysis.ipynb       # results, training curves, speed, challenging conditions
-    ├── FPFN_Analysis.ipynb          # false positives and false negatives (Methods A and B)
-    ├── analysis_Inputs/             # annotator files and adjudicated disagreements
-    ├── results_analysis/            # outputs of Results_Analysis
-    ├── results_fpfn/                # outputs of FPFN_Analysis
-    └── small_targets_coco_test/     # the 38 test images with small targets (for viewing only)
+    ├── Agreement_Analysis.ipynb          # annotator agreement (Cohen's kappa) and adjudication
+    ├── Results_Analysis.ipynb            # results, training curves, speed, challenging conditions
+    ├── FPFN_Analysis.ipynb               # false positives and false negatives (Methods A and B)
+    ├── analysis_inputs/                  # annotator files and adjudicated disagreements
+    ├── results_analysis/                 # outputs of Results_Analysis
+    ├── results_fpfn/                     # outputs of FPFN_Analysis
+    └── small_targets_coco_test/          # the 38 test images with small targets (for viewing only)
 
 ```
 
