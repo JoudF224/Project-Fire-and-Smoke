@@ -1,8 +1,0 @@
-source,model,mAP50,mAP50_95,fire AP50-95,smoke AP50-95,mAP50 (mean ± std),mAP50-95 (mean ± std),time (ms/img),hardware
-This work,RT-DETR-L,0.5907,0.3271,0.3556,0.2985,0.591 ± 0.019,0.327 ± 0.010,41.65,"T4, batch 8"
-This work,YOLO11s,0.5803,0.3175,0.3431,0.2919,0.580 ± 0.005,0.317 ± 0.002,12.625,"T4, batch 8"
-This work,YOLOv10s,0.5819,0.3199,0.3428,0.297,0.582 ± 0.005,0.320 ± 0.004,12.365,"T4, batch 8"
-Živanović et al. [Y],Faster R-CNN (ResNet-50-FPN),0.2385,0.0885,0.1253,0.0516,0.238,0.088,12.14,"RTX 4090, batch 1"
-Živanović et al. [Y],RetinaNet (ResNet-50-FPN),0.3622,0.1262,0.1411,0.1113,0.362,0.126,11.13,"RTX 4090, batch 1"
-Živanović et al. [Y],Faster R-CNN (MobileNetV2),0.3694,0.1544,0.1667,0.1422,0.369,0.154,2.52,"RTX 4090, batch 1"
-Živanović et al. [Y],DETR,0.027,0.0073,0.0118,0.0028,0.027,0.007,8.26,"RTX 4090, batch 1"
