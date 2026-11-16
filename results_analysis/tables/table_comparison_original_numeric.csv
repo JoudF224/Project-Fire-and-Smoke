@@ -1,0 +1,6 @@
+,precision,precision,recall,recall,mAP50,mAP50,mAP50_95,mAP50_95,fire_precision,fire_precision,fire_recall,fire_recall,fire_AP50,fire_AP50,fire_AP50_95,fire_AP50_95,smoke_precision,smoke_precision,smoke_recall,smoke_recall,smoke_AP50,smoke_AP50,smoke_AP50_95,smoke_AP50_95
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,,,,,,,,,,,,,,,
+RT-DETR-L,0.6581,0.0098,0.5168,0.0186,0.5907,0.0185,0.3271,0.0101,0.6933,0.0028,0.5485,0.018,0.6523,0.0205,0.3556,0.0151,0.6229,0.0169,0.4852,0.0193,0.5291,0.0166,0.2985,0.0051
+YOLO11s,0.6387,0.0121,0.5115,0.0029,0.5803,0.0054,0.3175,0.0022,0.6387,0.0016,0.5525,0.0011,0.6291,0.0026,0.3431,0.0036,0.6387,0.0227,0.4706,0.0048,0.5314,0.0082,0.2919,0.0008
+YOLOv10s,0.6417,0.0148,0.5162,0.0042,0.5819,0.0046,0.3199,0.004,0.6406,0.0047,0.5568,0.0096,0.6253,0.0001,0.3428,0.0027,0.6427,0.0248,0.4756,0.0011,0.5384,0.0092,0.297,0.0053
