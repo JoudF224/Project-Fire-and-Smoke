@@ -55,7 +55,8 @@ This folder contains the 38 images of the cleaned test split that include at lea
     ├── analysis_Inputs/             # annotator files and adjudicated disagreements
     ├── results_analysis/            # outputs of Results_Analysis
     ├── results_fpfn/                # outputs of FPFN_Analysis
-    └── small_target_images/         # the 38 test images with small targets (for viewing only)
+    └── small_targets_coco_test/     # the 38 test images with small targets (for viewing only)
+│  
 ```
 
 ## How to Reproduce a Run
