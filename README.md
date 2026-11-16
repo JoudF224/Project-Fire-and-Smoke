@@ -1,4 +1,4 @@
-<img width="590" height="52" alt="image" src="https://github.com/user-attachments/assets/d6119724-747f-4e70-aaf1-7c5d099134f5" /># Fire and Smoke Detection with RT-DETR, YOLO11 and YOLOv10
+# Fire and Smoke Detection with RT-DETR, YOLO11 and YOLOv10
 ### A Comparison on Original and Cleaned Data
 
 **Course:** CSC 403 – Selected Topics in Computer Science  
