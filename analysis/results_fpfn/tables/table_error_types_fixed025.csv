@@ -1,0 +1,4 @@
+model,FP fire: background,FP fire: class confusion,FP fire: localization,FP fire: duplicate,FN fire: missed completely,FN fire: class confusion,FN fire: localization,FP smoke: background,FP smoke: class confusion,FP smoke: localization,FP smoke: duplicate,FN smoke: missed completely,FN smoke: class confusion,FN smoke: localization
+RT-DETR-L,639.5,1.5,1288.0,228.0,79.0,2.0,196.0,505.0,5.0,1016.0,458.0,111.0,1.5,223.0
+YOLO11s,22.0,2.0,153.5,30.5,508.0,0.0,173.0,36.0,0.0,101.0,27.0,421.0,2.0,178.0
+YOLOv10s,25.5,0.0,165.5,26.5,483.5,0.0,170.5,37.0,0.5,119.0,25.5,411.5,0.0,186.5

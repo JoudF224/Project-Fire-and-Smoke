@@ -1,0 +1,7 @@
+group,images,fire boxes,smoke boxes,small fire boxes,small smoke boxes
+Full cleaned test,782,1083,907,44,13
+Challenging sample (all),197,382,295,44,13
+Weak / Diffuse Smoke,89,100,160,4,1
+Complex Background,79,219,109,8,0
+Poor Illumination,42,114,34,6,0
+Small Targets (COCO),38,115,63,44,13

@@ -1,0 +1,19 @@
+group,model,images,miss rate fire,miss rate smoke,FP per image,background FP per image
+Full cleaned test,RT-DETR-L,782,0.256 ± 0.020,0.370 ± 0.019,5.30 ± 0.37,1.46 ± 0.17
+Full cleaned test,YOLO11s,782,0.629 ± 0.003,0.663 ± 0.006,0.48 ± 0.00,0.07 ± 0.01
+Full cleaned test,YOLOv10s,782,0.604 ± 0.016,0.659 ± 0.006,0.51 ± 0.02,0.08 ± 0.00
+Challenging sample (all),RT-DETR-L,197,0.369 ± 0.015,0.371 ± 0.046,8.05 ± 0.87,2.31 ± 0.53
+Challenging sample (all),YOLO11s,197,0.825 ± 0.015,0.686 ± 0.002,0.56 ± 0.00,0.15 ± 0.00
+Challenging sample (all),YOLOv10s,197,0.810 ± 0.002,0.678 ± 0.010,0.60 ± 0.03,0.14 ± 0.01
+Weak / Diffuse Smoke,RT-DETR-L,89,0.295 ± 0.007,0.338 ± 0.062,6.58 ± 0.68,1.37 ± 0.41
+Weak / Diffuse Smoke,YOLO11s,89,0.760 ± 0.014,0.688 ± 0.009,0.53 ± 0.05,0.12 ± 0.00
+Weak / Diffuse Smoke,YOLOv10s,89,0.755 ± 0.007,0.672 ± 0.013,0.56 ± 0.06,0.12 ± 0.01
+Complex Background,RT-DETR-L,79,0.342 ± 0.019,0.376 ± 0.026,10.54 ± 0.79,3.17 ± 0.53
+Complex Background,YOLO11s,79,0.842 ± 0.016,0.711 ± 0.006,0.64 ± 0.01,0.17 ± 0.01
+Complex Background,YOLOv10s,79,0.817 ± 0.013,0.679 ± 0.000,0.68 ± 0.07,0.16 ± 0.02
+Poor Illumination,RT-DETR-L,42,0.325 ± 0.037,0.368 ± 0.021,9.38 ± 1.18,3.83 ± 0.71
+Poor Illumination,YOLO11s,42,0.776 ± 0.006,0.662 ± 0.021,0.68 ± 0.05,0.24 ± 0.00
+Poor Illumination,YOLOv10s,42,0.763 ± 0.025,0.603 ± 0.021,0.70 ± 0.05,0.20 ± 0.02
+Small Targets (COCO),RT-DETR-L,38,0.557 ± 0.048,0.615 ± 0.000,-,-
+Small Targets (COCO),YOLO11s,38,0.989 ± 0.016,0.808 ± 0.054,-,-
+Small Targets (COCO),YOLOv10s,38,0.977 ± 0.000,0.885 ± 0.054,-,-

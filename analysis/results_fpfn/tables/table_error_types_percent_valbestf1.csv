@@ -1,0 +1,15 @@
+kind,class,type,RT-DETR-L,YOLO11s,YOLOv10s
+FP,fire,background,23.3,13.5,13.5
+FP,fire,class confusion,0.2,0.4,0.2
+FP,fire,localization,70.2,69.0,67.7
+FP,fire,duplicate,6.2,17.0,18.5
+FP,smoke,background,23.5,19.6,19.4
+FP,smoke,class confusion,0.0,0.3,0.4
+FP,smoke,localization,60.1,60.7,58.7
+FP,smoke,duplicate,16.5,19.4,21.5
+FN,fire,missed completely,55.3,58.8,55.8
+FN,fire,class confusion,0.0,0.2,0.2
+FN,fire,localization,44.7,41.0,44.0
+FN,smoke,missed completely,54.0,57.2,55.9
+FN,smoke,class confusion,0.2,0.4,0.2
+FN,smoke,localization,45.8,42.4,43.9

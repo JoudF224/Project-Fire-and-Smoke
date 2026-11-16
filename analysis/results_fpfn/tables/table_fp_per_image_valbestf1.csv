@@ -1,0 +1,4 @@
+,FP per image,background FP per image
+RT-DETR-L,1.01 ± 0.16,0.24 ± 0.05
+YOLO11s,1.01 ± 0.09,0.16 ± 0.01
+YOLOv10s,1.18 ± 0.21,0.19 ± 0.03

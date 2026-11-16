@@ -1,0 +1,37 @@
+group,model,seed,images,miss rate fire,miss rate smoke,FP per image,background FP per image
+Full cleaned test,RT-DETR-L,0,782,0.4986,0.5711,0.899,0.2008
+Challenging sample (all),RT-DETR-L,0,197,0.6597,0.6136,1.2741,0.2995
+Weak / Diffuse Smoke,RT-DETR-L,0,89,0.65,0.6062,0.9775,0.1798
+Complex Background,RT-DETR-L,0,79,0.6621,0.6147,1.5696,0.3924
+Poor Illumination,RT-DETR-L,0,42,0.5789,0.5588,1.5238,0.5238
+Small Targets (COCO),RT-DETR-L,0,38,0.7727,0.6923,,
+Full cleaned test,RT-DETR-L,1,782,0.4561,0.5535,1.124,0.2724
+Challenging sample (all),RT-DETR-L,1,197,0.589,0.5559,1.7107,0.4772
+Weak / Diffuse Smoke,RT-DETR-L,1,89,0.5,0.55,1.4607,0.3146
+Complex Background,RT-DETR-L,1,79,0.589,0.5596,2.0,0.5696
+Poor Illumination,RT-DETR-L,1,42,0.4912,0.5,2.2381,0.7619
+Small Targets (COCO),RT-DETR-L,1,38,0.8409,0.6154,,
+Full cleaned test,YOLO11s,0,782,0.5143,0.602,0.9437,0.1573
+Challenging sample (all),YOLO11s,0,197,0.6832,0.6136,1.1726,0.2487
+Weak / Diffuse Smoke,YOLO11s,0,89,0.64,0.6188,0.9663,0.191
+Complex Background,YOLO11s,0,79,0.6895,0.6239,1.4051,0.3291
+Poor Illumination,YOLO11s,0,42,0.5965,0.5588,1.619,0.3571
+Small Targets (COCO),YOLO11s,0,38,0.8864,0.7692,,
+Full cleaned test,YOLO11s,1,782,0.5042,0.5888,1.0742,0.1688
+Challenging sample (all),YOLO11s,1,197,0.6832,0.5966,1.4112,0.2741
+Weak / Diffuse Smoke,YOLO11s,1,89,0.62,0.575,1.236,0.2697
+Complex Background,YOLO11s,1,79,0.6941,0.6147,1.7848,0.3418
+Poor Illumination,YOLO11s,1,42,0.614,0.6176,1.8333,0.4286
+Small Targets (COCO),YOLO11s,1,38,0.9091,0.8462,,
+Full cleaned test,YOLOv10s,0,782,0.4598,0.5601,1.321,0.2097
+Challenging sample (all),YOLOv10s,0,197,0.6283,0.5729,1.5838,0.3401
+Weak / Diffuse Smoke,YOLOv10s,0,89,0.56,0.5562,1.3146,0.3034
+Complex Background,YOLOv10s,0,79,0.6164,0.578,1.9873,0.443
+Poor Illumination,YOLOv10s,0,42,0.5526,0.5294,2.0476,0.5238
+Small Targets (COCO),YOLOv10s,0,38,0.9091,0.8462,,
+Full cleaned test,YOLOv10s,1,782,0.5032,0.5998,1.0294,0.1662
+Challenging sample (all),YOLOv10s,1,197,0.6937,0.6169,1.2995,0.2741
+Weak / Diffuse Smoke,YOLOv10s,1,89,0.66,0.6062,1.1011,0.2809
+Complex Background,YOLOv10s,1,79,0.7032,0.633,1.6329,0.3418
+Poor Illumination,YOLOv10s,1,42,0.6228,0.5294,1.5476,0.3571
+Small Targets (COCO),YOLOv10s,1,38,0.9318,0.8462,,

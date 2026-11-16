@@ -1,0 +1,7 @@
+model,seed,FP fire: background,FP fire: class confusion,FP fire: localization,FP fire: duplicate,FN fire: missed completely,FN fire: class confusion,FN fire: localization,FP smoke: background,FP smoke: class confusion,FP smoke: localization,FP smoke: duplicate,FN smoke: missed completely,FN smoke: class confusion,FN smoke: localization
+RT-DETR-L,0,83,1,268,29,323,0,217,74,0,193,55,274,1,243
+RT-DETR-L,1,119,1,340,25,249,0,245,94,0,237,63,277,1,224
+YOLO11s,0,54,2,290,72,343,2,212,69,2,197,52,317,2,227
+YOLO11s,1,68,2,332,81,306,0,240,64,0,214,79,301,2,231
+YOLOv10s,0,82,2,391,118,267,1,230,82,1,262,95,269,2,237
+YOLOv10s,1,62,0,329,79,315,1,229,68,2,193,72,319,0,225
