@@ -1,0 +1,7 @@
+group,images,fire boxes,smoke boxes,small fire boxes,small smoke boxes,seen in original training (train__),used for original validation (valid__),note
+Full cleaned test,782,1083,907,44,13,580 (74%),98 (13%),
+Challenging sample (all),197,382,295,44,13,143 (73%),30 (15%),
+Weak / Diffuse Smoke,89,100,160,4,1,56 (63%),18 (20%),
+Complex Background,79,219,109,8,0,58 (73%),14 (18%),
+Poor Illumination,42,114,34,6,0,32 (76%),6 (14%),
+Small Targets (COCO),38,115,63,44,13,26 (68%),8 (21%),

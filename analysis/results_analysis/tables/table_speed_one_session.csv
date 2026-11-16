@@ -1,0 +1,4 @@
+model,parameters (M),best.pt (MB),pre (ms),inference (ms),post (ms),total mean (ms),total P95 (ms),FPS,GPU,timed checkpoint
+RT-DETR-L,32.81,63.2,0.77,38.41,0.63,39.81,45.14,25.12,Tesla T4,cleaned/RT-DETR-L/seed0
+YOLO11s,9.43,18.3,0.73,8.08,1.09,9.9,11.78,101.01,Tesla T4,cleaned/YOLO11s/seed0
+YOLOv10s,8.07,15.8,0.74,8.38,1.2,10.32,14.79,96.9,Tesla T4,cleaned/YOLOv10s/seed0
