@@ -47,7 +47,7 @@ The original dataset was released by CQUniversity (Partheepan, 2025). The cleane
 │   ├── cleaned_data/                     # 6 runs: notebook, results.csv, report.txt
 │   └── cleaned_data_failed/              # first attempt of RT-DETR-L seed 0 (diverged)
 └── analysis/
-    ├── Agreement_Analysis.ipynb          # annotator agreement (Cohen's kappa) and adjudication
+    ├── Agreement_Analysis.ipynb          # annotator agreement (percent agreement, Cohen's kappa), disagreements for adjudication, final categories
     ├── Results_Analysis.ipynb            # results, training curves, speed, challenging conditions
     ├── FPFN_Analysis.ipynb               # false positives and false negatives (Methods A and B)
     ├── analysis_inputs/                  # annotator files and adjudicated disagreements
